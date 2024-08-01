@@ -32,7 +32,7 @@ export default async function User({
   console.log("FOund username: ", params.username)
 
   const { data, status } = await axios.get(
-    `${server_url}user/username/${params.username}/`,
+    `${server_url}/user/username/${params.username}/`,
     {
       headers: {
         "Cache-Control": "no-store", // Disable caching
