@@ -1,0 +1,110 @@
+---
+assessments:
+  - assessment_type: individual
+    student: nmkhwanazi023@student.wethinkcode.co.za
+    self_assessment: true
+    categories:
+      - id: 1
+        description: ability
+        score: 5
+      - id: 2
+        description: attitude
+        score: 5
+      - id: 5
+        description: collaboration
+        score: 5
+      - id: 3
+        description: ownership
+        score: 5
+      - id: 7
+        description: professionalism
+        score: 5
+  - assessment_type: individual
+    student: cngwenya023@student.wethinkcode.co.za
+    self_assessment: false
+    categories:
+      - id: 1
+        description: ability
+        score: 5
+      - id: 2
+        description: attitude
+        score: 5
+      - id: 5
+        description: collaboration
+        score: 5
+      - id: 3
+        description: ownership
+        score: 5
+      - id: 7
+        description: professionalism
+        score: 5
+  - assessment_type: individual
+    student: fmabece023@student.wethinkcode.co.za
+    self_assessment: false
+    categories:
+      - id: 1
+        description: ability
+        score: 5
+      - id: 2
+        description: attitude
+        score: 5
+      - id: 5
+        description: collaboration
+        score: 5
+      - id: 3
+        description: ownership
+        score: 5
+      - id: 7
+        description: professionalism
+        score: 5
+  - assessment_type: individual
+    student: lmothupi023@student.wethinkcode.co.za
+    self_assessment: false
+    categories:
+      - id: 1
+        description: ability
+        score: 5
+      - id: 2
+        description: attitude
+        score: 5
+      - id: 5
+        description: collaboration
+        score: 5
+      - id: 3
+        description: ownership
+        score: 5
+      - id: 7
+        description: professionalism
+        score: 5
+  - assessment_type: individual
+    student: mntanzi023@student.wethinkcode.co.za
+    self_assessment: false
+    categories:
+      - id: 1
+        description: ability
+        score: 5
+      - id: 2
+        description: attitude
+        score: 5
+      - id: 5
+        description: collaboration
+        score: 5
+      - id: 3
+        description: ownership
+        score: 5
+      - id: 7
+        description: professionalism
+        score: 5
+  - assessment_type: team
+    student: ~
+    self_assessment: false
+    categories:
+      - id: 5
+        description: collaboration
+        score: 5
+      - id: 4
+        description: communication
+        score: 5
+      - id: 6
+        description: engineering
+        score: 5

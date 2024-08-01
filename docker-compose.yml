@@ -1,0 +1,10 @@
+version: '3'
+services:
+    nextjs:
+        env_file:
+            - .env
+        ports:
+            - '3000:3000'
+        build: ./
+        restart: unless-stopped
+        image: uzoori_frontend:latest
