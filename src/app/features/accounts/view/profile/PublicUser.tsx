@@ -17,7 +17,7 @@ export default async function User({
 }: {
   params: { username: string };
 }) {
-  const server_url = process.env.NEXT_PUBLIC_SERVER_URL;
+  const server_url = "https://3f5d-41-169-13-10.ngrok-free.app";
 
   let posts: iPost[] = [];
   // let user: unknown = {

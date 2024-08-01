@@ -67,7 +67,7 @@ export const logoOut = () => {
     axios
       .create({
         withCredentials: true,
-        baseURL: process.env.NEXT_PUBLIC_SERVER_URL,
+        baseURL: "https://3f5d-41-169-13-10.ngrok-free.app",
       })
       .get("/user/signout/");
   } catch (err) {
