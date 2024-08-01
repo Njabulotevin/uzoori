@@ -198,7 +198,7 @@ export const getServerSideProps:
 
   try {
     const { data, status, headers } = await axios.get(
-      `https://3f5d-41-169-13-10.ngrok-free.app/api/v1/user/username/${context?.params?.username}/`,
+      `https://295f-41-169-13-10.ngrok-free.app/api/v1/user/username/${context?.params?.username}/`,
       {
         headers: {
           "Cache-Control": "no-store", // Disable caching
