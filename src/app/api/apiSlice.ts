@@ -36,7 +36,7 @@ const axiosBaseQuery =
     }
   };
 
-const server_url = process.env.NEXT_PUBLIC_SERVER_URL;
+const server_url = "https://295f-41-169-13-10.ngrok-free.app";
 
 
 export const apiSlice = createApi({
