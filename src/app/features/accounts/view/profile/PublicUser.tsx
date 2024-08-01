@@ -17,7 +17,7 @@ export default async function User({
 }: {
   params: { username: string };
 }) {
-  const server_url = "https://3f5d-41-169-13-10.ngrok-free.app";
+  const server_url = process.env.NEXT_PUBLIC_SERVER_URL;
 
   let posts: iPost[] = [];
   // let user: unknown = {
@@ -29,8 +29,10 @@ export default async function User({
   //   description: "",
   // };
 
+  console.log("FOund username: ", params.username)
+
   const { data, status } = await axios.get(
-    `${server_url}user/username/${params.username}/`,
+    `${server_url}user/usernameGGGG/${params.username}/`,
     {
       headers: {
         "Cache-Control": "no-store", // Disable caching
