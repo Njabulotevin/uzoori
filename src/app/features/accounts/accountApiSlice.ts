@@ -140,7 +140,7 @@ export const accountApiSlice = apiSlice.injectEndpoints({
       { username: string; userId: string }
     >({
       query: ({ username, userId }) =>
-        `/user/username/veengraphics${username}/?userId=${userId}`,
+        `/user/username/${username}/?userId=${userId}`,
     }),
     // FORGOT USER & SET PASSWORD
     forgotCheck: builder.mutation({
