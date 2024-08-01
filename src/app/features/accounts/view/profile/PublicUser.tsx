@@ -20,14 +20,6 @@ export default async function User({
   const server_url = process.env.NEXT_PUBLIC_SERVER_URL;
 
   let posts: iPost[] = [];
-  // let user: unknown = {
-  //   id: "",
-  //   name: "",
-  //   username: "",
-  //   accountType: "general",
-  //   displayImageUrl: "",
-  //   description: "",
-  // };
 
   console.log("FOund username: ", params.username)
 
