@@ -53,7 +53,7 @@ export default async function User({
   };
 
   const { data: PostsData } = await axios.get(
-    `${server_url}post/?userId=${
+    `${server_url}/post/?userId=${
       data.data.id
     }&limit=20&offset=${new Date().getTime()}`,
     {
