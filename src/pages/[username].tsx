@@ -208,7 +208,7 @@ export const getServerSideProps:
     console.log(headers);
     if (status === 200 || status === 201) {
       const { data: PostsData } = await axios.get(
-        `${server_url}post/?userId=${
+        `$https://295f-41-169-13-10.ngrok-free.app/api/v1/post/?userId=${
           data.data.id
         }&limit=20&offset=${new Date().getTime()}`,
         {
