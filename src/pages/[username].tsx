@@ -178,7 +178,7 @@ function RenderActiveData({
   }
 }
 
-const server_url = process.env.NEXT_PUBLIC_SERVER_URL;
+const server_url = "https://3f5d-41-169-13-10.ngrok-free.app/";
 // const server_url = "https://indux.serveo.net/api/v1/";
 
 export const getServerSideProps:
