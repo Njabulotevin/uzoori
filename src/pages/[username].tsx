@@ -198,7 +198,7 @@ export const getServerSideProps:
 
   try {
     const { data, status, headers } = await axios.get(
-      `${server_url}user/usernamehhhhhhhh/${context?.params?.username}/`,
+      `${server_url}user/username/${context?.params?.username}/`,
       {
         headers: {
           "Cache-Control": "no-store", // Disable caching
