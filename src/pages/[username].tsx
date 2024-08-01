@@ -37,6 +37,8 @@ export default function User({
     setActive({ label: "profile", data: user.name });
   }, []);
 
+  console.log("From user public user: ", user)
+
   return (
     <div className="flex w-full flex-col gap-5 max-w-[700px] mx-auto">
       <div className="mx-auto w-full">

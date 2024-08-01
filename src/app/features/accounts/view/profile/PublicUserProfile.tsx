@@ -45,6 +45,8 @@ export default function PublicUserProfile({
   postCount?: number;
   followId?: string;
 }) {
+
+  console.log("From user profile: ", user)
   const Router = useRouter();
   const { openModal } = useModal();
 
